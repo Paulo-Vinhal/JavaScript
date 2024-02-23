@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pratica</title>
+</head>
+<body>
+    <a href="https://gist.github.com/alisonjonck/356960a9f210e65f8f855f4a893b058a"><h3>>> Lista de exercicios utilizada</h3></a>
+    </hr>
+    <div>
+        <h3>1. Crie uma variável numérica e exiba seu valor no console.</h3>
+        <label for="n1">Digite o número a ser exibido no console:</label>
+        <input type="number" id="n1">
+        <button type="submit" onclick="mostrarNumero()">Mostrar no console</button>
+    </div>
+    <div>
+        <h3>2. Crie uma variável string e exiba seu valor no console</h3>
+        <label for="string2">Digite a palavra a ser exibida no console:</label>
+        <input type="text" id="string2">
+        <button type="submit" onclick="mostrarTexto()">Mostrar no console</button>
+    </div>
+    <div>
+        <h3>3. Crie duas variáveis numéricas e faça uma operação matemática com elas (como adição, subtração, multiplicação ou divisão).</h3>
+        <label for="exercicio3">Digite os números e a operação: </label>
+        <input type="number" id="x">
+        <select name="operacoes" id="operacoes">
+            <option value="soma">Soma</option>
+            <option value="subtracao">Subtração</option>
+            <option value="multiplicacao">Multiplicação</option>
+            <option value="divisao">Divisão</option>
+        </select>
+        <input type="number" id="y">
+        <button onclick="efetuarOperacao()">Efetuar operação</button>
+        <span id="resultadoEx3" style="margin-left:25px;color: greenyellow;background-color: black;padding: 3px;">Resultado</span>
+    </div>
+
+    <div>
+        <h3>4. Crie uma função que exiba uma mensagem de alerta na tela.</h3>
+        <label for="textoEx4">Digite o texto a ser exibido no alerta:</label>
+        <input type="text" id="textoEx4">
+        <button onclick="exibirTextoAlerta()">Exibir Texto</button>
+    </div>
+
+    <div>
+        <h3>5. Crie uma estrutura condicional que exiba uma mensagem de acordo com um valor booleano.</h3>
+        <select name="selectEx5" id="selectEx5">
+            <option value="s">Verdadeiro</option>
+            <option value="n">Falso</option>
+        </select>
+        <button onclick="valorBoleano()">Verificar</button>
+        <span id="resEx5" style="background-color: black;padding: 5px;color: greenyellow;margin-left: 10px;">Resultado</span>
+    </div>
+
+    <div>
+        <h3>6. Crie uma estrutura de repetição que exiba o valor de uma variável numérica a cada iteração.</h3>
+        <label for="iteracoes">Digite o número de iterações: </label>
+        <input type="number" id="iteracoes" style="width: 30px;">
+        <button onclick="gerarIteracoes()">Gerar</button>
+        <span id="retornoEx6" style="color: red; background-color: black;padding: 10px;">>> </span>
+    </div>
+
+    <div>
+        <h3>7. Crie uma função que receba dois parâmetros numéricos e retorne o resultado de uma operação matemática (como adição, subtração, multiplicação ou divisão).</h3>
+        <label for="ex7x">Digite os números e selecione a operação: </label>
+        <input type="number" id="ex7x">
+        <select name="ex7Operacao" id="ex7Operacao">
+            <option value="s">Somar</option>
+            <option value="sb">Subtrair</option>
+            <option value="m">Multiplicar</option>
+            <option value="d">Dividir</option>
+        </select>
+        <input type="number" id="ex7y">
+        <button onclick="ex7Executar(Number(ex7x.value), Number(ex7y.value), ex7Operacao.value, resEx7)">Realizar operação</button>
+        <span id="resEx7" style="color: red; background-color: black;padding: 10px;margin-left:10px ;">Resultado</span>
+    </div>
+
+    <div>
+        <h3>8. Crie um array com vários elementos e exiba cada um no console.</h3>
+        <button onclick="exibirArray()">Exibir no console (Ctrl+Shift+i)</button>
+    </div>
+
+    <div>
+        <h3>9. Crie um objeto com algumas propriedades e exiba uma delas no console.</h3>
+        <button onclick="exibirObjeto()">Exibir Propriedade</button>
+    </div>
+
+    <div>
+        <h3>11. Crie uma função que receba um array como parâmetro e exiba cada um dos elementos no console.</h3>
+        <button onclick="arrayComoParametro(arrayPadrao)">Exibir array no console.</button>
+    </div>
+
+    <div>
+        <h3>12. Crie uma função que receba um objeto como parâmetro e exiba uma de suas propriedades no console.</h3>
+        <button onclick="objetoComoParametro(objetoPadrao)">Exibir uma propriedade do objeto</button>
+    </div>
+
+    <div>
+        <h3>13. Crie uma estrutura condicional que verifique se um número é par ou ímpar e exiba uma mensagem de acordo.</h3>
+        <input type="number" id="numeroEx13">
+        <button onclick="parOuImpar(document.getElementById('numeroEx13').value)">Par ou Impar</button> <span id="ex13"></span>
+    </div>
+
+    <script src="script.js">
+    </script>
+
+</body>
+</html>

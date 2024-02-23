@@ -1,0 +1,16 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.0em;
+    text-align: center;
+    padding: 20px;
+}
+
+button{
+    background-color: black;
+    
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
