@@ -33,5 +33,4 @@ function exemploEscopoDeFuncao () {
 exemploEscopoDeFuncao()
 
 console.log("Ambas possuem o mesmo nome, mas estão declaradas em escopos distintos, retornando o valor relativo de onde está sendo chamado.")
-console.log("Fim")
 
