@@ -3,14 +3,21 @@ body{
     font-size: 1.0em;
     text-align: center;
     padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color:darkcyan;
 }
 
 button{
     background-color: black;
+    color: white;
     
 }
 
 button a{
     text-decoration: none;
     color: white;
+}
+
+#destaque{
+    font-size: 1.1em;
 }
