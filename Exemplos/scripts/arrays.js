@@ -31,3 +31,6 @@ console.log(mArray)
 console.log(mArray.pop())
 console.log(mArray)
 
+// Filter
+console.log(mArray.filter())
+

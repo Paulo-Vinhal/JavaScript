@@ -1,0 +1,14 @@
+{
+  "name": "programacaoorientadaaobjetos",
+  "version": "1.0.0",
+  "main": "game.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Paulo Vinhal",
+  "license": "ISC",
+  "devDependencies": {},
+  "description": ""
+}

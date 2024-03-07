@@ -1,0 +1,41 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Poo</title>
+</head>
+<body>
+    <h1>Progamção Orientada a Objetos</h1>
+
+    <button type="button" onclick="gameStart()">Start match</button>
+
+    <section id="position_left" class="position">
+        <h3 id="l_name" class="name"></h3>
+        <p id="l_health" class="health"></p>
+        <p id="l_damage" class="damage"></p>
+    </section>
+
+    <section id="position_right" class="position">
+        <h3 id="r_name" class="name"></h3>
+        <p id="r_health" class="health"></p>
+        <p id="r_damage" class="damage"></p>
+    </section>
+
+    <div id="log_battle_console">
+        <p id="log_battle_console_msg"> > </p>
+    </div>
+
+    <section id="bottom">
+        <label for="log_battle_console_msg_input">Digite algo</label>
+        <input type="text" id="log_battle_console_msg_input">
+        <button onclick="msg()">Enviar</button>
+    </section>
+    
+
+    <script src="game.js"></script>
+</body>
+</html>

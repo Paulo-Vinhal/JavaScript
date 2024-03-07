@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    color: greenyellow;
+}
+
+#log_battle_console{
+    border: 1px solid greenyellow;
+    color: white;
+    width: 50%;
+    position: absolute;
+    right: 100px;
+    top: 120px;
+    height: 400px;
+    padding: 10px;
+}
+
+.position{
+    border: 1px solid red;
+    padding: 30px;
+    margin: 20px;
+    max-width: 30%;
+}
+
+.name{
+    border: 1px solid white;
+    padding: 10px;
+    margin: 1;
+
+}
+
+.health{
+    border: 1px solid greenyellow;
+    padding: 10px;
+    margin: 1;
+}
+
+.damage{
+    border: 1px solid greenyellow;
+    padding: 10px;
+    margin: 1;
+}
+
+#bottom{
+    text-align: center;
+    padding: 20px;
+    margin-top: 80px;
+    border: 1px solid yellow;
+}
+
+
