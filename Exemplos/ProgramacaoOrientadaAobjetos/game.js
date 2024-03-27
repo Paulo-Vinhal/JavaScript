@@ -33,5 +33,5 @@ function gameStart(){
 function msg(){
     let msg = document.querySelector("#log_battle_console_msg_input").value
     document.querySelector("#log_battle_console_msg").innerHTML += "" + msg
-    msg.innerHTML = " "
+
 }
